@@ -234,7 +234,7 @@ export default function Home() {
 
           <div className="w-[55%] p-6  h-[1180px] bg-[url('/image.png')] bg-[length:980px_1180px]  ">
             <Image
-              src="/wifi.png"
+              src="/Wifi.png"
               alt="Logo"
               width={22}
               height={10}
