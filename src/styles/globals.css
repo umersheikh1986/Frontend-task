@@ -22,11 +22,11 @@ body {
 /* styles.css */
 
 .swiper-pagination-custom .swiper-pagination-bullet {
-  @apply w-6 h-6  gap-4 bg-gradient-to-r from-[#75BC49] to-[#3D8CBB] bg-white  rounded-full transition-all duration-300 ease-in-out;
+  @apply w-3 h-3  gap-4 bg-gradient-to-r from-[#75BC49] to-[#3D8CBB] bg-white  rounded-md transition-all duration-300 ease-in-out;
 }
 
 .swiper-pagination-custom .swiper-pagination-bullet-active {
-  @apply gap-4 bg-gradient-to-r  from-[#75BC49] to-[#3D8CBB] transform scale-110;
+  @apply gap-4  w-2 h-9 bg-gradient-to-r  from-[#75BC49] to-[#3D8CBB] transform scale-110;
 }
 
 
@@ -80,6 +80,7 @@ body {
   width: 10px;
   height: 10px;
   opacity: 1;
+  border-radius: 50px;
   margin: 100 4px !important;
 }
 
@@ -93,6 +94,7 @@ body {
   bottom: 50%;
   transform: translateY(-50%);
   display: flex;
+  
   gap: 4px;
 }
 
