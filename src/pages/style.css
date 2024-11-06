@@ -1,0 +1,82 @@
+/* src/styles.css */
+
+/* Map Tailwind’s generated utility classes to Swiper's pagination classes */
+.swiper-pagination-custom .swiper-pagination-bullet {
+  @apply w-6 h-6  bg-gradient-to-r from-[#75BC49] to-[#3D8CBB] bg-white  rounded-full transition-all duration-300 ease-in-out;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet-active {
+  @apply bg-gradient-to-r from-[#75BC49] to-[#3D8CBB] transform scale-110;
+}
+/* styles.css */
+
+.swiper-pagination-custom1 .swiper-pagination-bullet1 {
+  @apply w-6 h-6  bg-gradient-to-r from-[#75BC49] to-[#3D8CBB] bg-white  rounded-full transition-all duration-300 ease-in-out;
+}
+
+.swiper-pagination-custom1 .swiper-pagination-bullet-active1 {
+  @apply bg-gradient-to-r from-[#75BC49] to-[#3D8CBB] transform scale-110;
+}
+
+/* Ensure the Swiper container takes up necessary space */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Style the Swiper slides */
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom navigation and pagination container */
+.custom-nav-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between navigation buttons and pagination */
+}
+
+/* Style for custom navigation buttons */
+.custom-prev,
+.custom-next {
+  width: 40px; /* Adjust based on your image size */
+  height: 40px; /* Adjust based on your image size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-prev img,
+.custom-next img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Style the pagination bullets */
+.custom-pagination .swiper-pagination-bullet {
+  background-color: #333;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  margin: 100 4px !important;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #75BC49
+  
+}
+.swiper-pagination {
+  position: absolute;
+
+  top: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.custom-pagination {
+  display: flex;
+  gap: 8px;
+}
